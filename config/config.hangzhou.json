@@ -1,0 +1,31 @@
+{
+  "social": {
+    "base": 15274.74,
+    "percentage": {
+      "pension": 8,
+      "medical": 2,
+      "unemployment": 0.5
+    },
+    "companyPercentage": {
+      "pension": 14,
+      "medical": 10.5,
+      "unemployment": 0.5,
+      "injury": 0.2,
+      "fertility": 1.2
+    }
+  },
+  "provident": {
+    "base": 24311,
+    "percentage": 12,
+    "companyPercentage": 12
+  },
+  "tax": {
+    "base": 5000,
+    "deduction": 300,
+    "accumulateTaxableIncome": {
+      "base": [36000, 144000, 300000, 420000, 660000, 960000],
+      "percentage": [3, 10, 20, 25, 30, 35, 45],
+      "deduction": [0, 2520, 16920, 31920, 52920, 85920, 181920]
+    }
+  }
+}

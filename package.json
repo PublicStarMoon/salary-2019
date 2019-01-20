@@ -1,0 +1,36 @@
+{
+  "name": "salary-2019",
+  "version": "0.1.0-alpha.0",
+  "description": "CLI to Calculate Your After Tax Income per Month During 2019 in China, Support Hangzhou & Shanghai",
+  "bin": {
+    "salary": "bin/index.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasSchwarzer/salary-2019.git"
+  },
+  "keywords": [
+    "Node",
+    "Salary",
+    "Tax"
+  ],
+  "author": "nicolas-schwarzer <nbwansjtu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasSchwarzer/salary-2019/issues"
+  },
+  "homepage": "https://github.com/NicolasSchwarzer/salary-2019#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "commander": "^2.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
