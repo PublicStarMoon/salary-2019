@@ -1,6 +1,6 @@
 {
   "name": "salary-2019",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.1",
   "description": "CLI to Calculate Your After Tax Income per Month During 2019 in China, Support Hangzhou & Shanghai",
   "bin": {
     "salary": "bin/index.js"
