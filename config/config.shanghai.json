@@ -1,31 +1,35 @@
 {
-  "social": {
-    "base": 21396,
-    "percentage": {
-      "pension": 8,
-      "medical": 2,
-      "unemployment": 0.5
+    "social": {
+      "base": 34188,
+      "percentage": {
+        "pension": 8,
+        "medical": 2,
+        "unemployment": 0.5
+      },
+      "companyPercentage": {
+        "pension": 20,
+        "medical": 9.5,
+        "unemployment": 0.5,
+        "injury": 0.2,
+        "fertility": 1
+      }
     },
-    "companyPercentage": {
-      "pension": 20,
-      "medical": 9.5,
-      "unemployment": 0.5,
-      "injury": 0.2,
-      "fertility": 1
-    }
-  },
-  "provident": {
-    "base": 21400,
-    "percentage": 7,
-    "companyPercentage": 7
-  },
-  "tax": {
-    "base": 5000,
-    "deduction": 0,
-    "accumulateTaxableIncome": {
-      "base": [36000, 144000, 300000, 420000, 660000, 960000],
-      "percentage": [3, 10, 20, 25, 30, 35, 45],
-      "deduction": [0, 2520, 16920, 31920, 52920, 85920, 181920]
+    "provident": {
+      "base": 34188,
+      "percentage": 7,
+      "companyPercentage": 7
+    },
+    "tax": {
+      "base": 5000,
+      "deduction": 3000,
+      "accumulateTaxableIncome": {
+        "base": [36000, 144000, 300000, 420000, 660000, 960000],
+        "percentage": [3, 10, 20, 25, 30, 35, 45],
+        "deduction": [0, 2520, 16920, 31920, 52920, 85920, 181920]
+      }
+    },
+    "bonus": {
+      
     }
   }
-}
+  
