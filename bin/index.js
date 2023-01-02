@@ -69,10 +69,10 @@ const logPersonalTable = () => {
   console.log(`月份 | 税后收入 | 个人所得税 | 公积金汇缴基数 | 住房公积金 (${config.provident.percentage}%) | 社保汇缴基数 | 养老保险金 (${config.social.percentage.pension}%) | 医疗保险金 (${config.social.percentage.medical}%) | 失业保险金 (${config.social.percentage.unemployment}%)`);
   console.log(table.toString());
 
-  console.log(`年收入 - ${accumulateTaxedIncome} 元`);
+  console.log(`年到手 - ${accumulateTaxedIncome} 元`);
   console.log(`年总包 - ${accumulateTotalIncome} 元`);
 
-  console.log(`月平均收入 - ${averageTaxedIncome} 元`);
+  console.log(`月平均到手 - ${averageTaxedIncome} 元`);
   console.log(`月平均总包 - ${averageTotalIncome} 元`);
 };
 
